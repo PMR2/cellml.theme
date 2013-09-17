@@ -11,4 +11,10 @@
      insert-after="custom"/>
  </skin-path>
 
+ <skin-path name="CellML Theme (PMR2)" based-on="CellML Theme">
+ </skin-path>
+
+ <skin-path name="CellML Theme (models)" based-on="CellML Theme">
+ </skin-path>
+
 </object>
