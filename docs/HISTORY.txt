@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.5 - Released (2014-08-21)
+-----------------------------
+
+* MSIE8+ JavaScript compatibility fixes.
+
 2.1.4 - Released (2014-04-03)
 -----------------------------
 
