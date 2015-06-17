@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.6 - Released (2015-06-17)
+-----------------------------
+
+* Corrected table related max-width issues in Firefox and MSIE.
+
 2.1.5 - Released (2014-08-21)
 -----------------------------
 
