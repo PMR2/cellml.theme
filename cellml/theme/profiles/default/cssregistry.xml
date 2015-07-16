@@ -47,7 +47,7 @@
     media=""/>
 
  <stylesheet
-    id="++theme++cellml.theme/ext/contextjs/context.bootstrap.js"
+    id="++theme++cellml.theme/ext/contextjs/context.bootstrap.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"
     applyPrefix="1"
     media=""/>
