@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.7 - Released (Unreleased)
+-----------------------------
+
+* Corrected css/js typo.
+
 2.1.6 - Released (2015-06-17)
 -----------------------------
 

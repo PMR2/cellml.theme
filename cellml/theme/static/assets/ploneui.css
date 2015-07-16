@@ -11,6 +11,11 @@
  * it may become necessary to disable selected stylesheets.
  */
 
+ /* undo reset.css rules */
+
+* li { display: list-item; }
+* ol, ul { list-style: initial; }
+
  /* @group Content */
 
 .hiddenStructure {
