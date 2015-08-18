@@ -356,7 +356,7 @@ input[type="checkbox"] {
     display: block;
 }
 
-#content table {
+#content-core table {
     table-layout: fixed;
 }
 
