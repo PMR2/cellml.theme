@@ -262,6 +262,15 @@ body {
     line-height: 20px;
 }
 
+#portal-personaltools li .dropdown-menu li {
+    width: auto;
+    min-width: 104px;
+}
+
+#portal-personaltools li .dropdown-menu li a {
+    padding: 0 10px;
+}
+
 #searchbox form {
     margin: 0;
 }
