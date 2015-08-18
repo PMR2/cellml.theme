@@ -503,6 +503,10 @@ table.listing {
     background: rgba(255,255,255,.9);
 }
 
+ul#pmr2_oauth_user_manage_token {
+    list-style: none;
+}
+
 /* PloneSoftwareCenter */
 
 .portaltype-pscrelease a.link-plain img {
