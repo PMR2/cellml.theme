@@ -1,8 +1,8 @@
 Changelog
 =========
 
-2.1.8 - Unreleased
-------------------
+2.1.8 - Released (2016-03-08)
+-----------------------------
 
 * Only correct table related max-width issues in Firefox and MSIE for
   the #content-core section, which is generally where user-supplied data
