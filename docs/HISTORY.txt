@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.1.9 - Released (2016-12-29)
+-----------------------------
+
+* Do not fix that table width for listings.
+
 2.1.8 - Released (2016-03-08)
 -----------------------------
 

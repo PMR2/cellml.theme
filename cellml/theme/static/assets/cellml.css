@@ -360,6 +360,10 @@ input[type="checkbox"] {
     table-layout: fixed;
 }
 
+#content-core table.listing {
+    table-layout: auto;
+}
+
 table.listing {
     overflow: auto;
     max-width: 100%;
