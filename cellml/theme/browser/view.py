@@ -1,6 +1,7 @@
 from ZODB.POSException import ConflictError
 
 from zope import interface
+from zope.annotation.interfaces import IAnnotations
 from zope.component import queryAdapter, queryMultiAdapter
 from zope.component import getMultiAdapter, getUtility
 from zope.publisher import browser
@@ -92,10 +93,12 @@ class Layout(Explicit):
         while context is not None:
             # see if parents have a specific layout set.
             try:
-                o = queryAdapter(context, name='CellMLThemeSettings')
-                if o.layout is not None:
-                    # we have layout, we are done.
-                    break
+                if 'cellml.theme.content.LayoutSettings' in IAnnotations(
+                        context):
+                    o = queryAdapter(context, name='CellMLThemeSettings')
+                    if o.layout is not None:
+                        # we have layout, we are done.
+                        break
             except:
                 pass
             context = aq_parent(context)
@@ -211,9 +214,12 @@ class CellMLTheme(BrowserView):
         while context is not None and index == 0:
             # see if parents have a specific layout set.
             try:
-                settings = queryAdapter(context, name='CellMLThemeSettings')
-                if settings.layout is not None:
-                    index = settings.layout
+                if 'cellml.theme.content.LayoutSettings' in IAnnotations(
+                        context):
+                    settings = queryAdapter(
+                        context, name='CellMLThemeSettings')
+                    if settings.layout is not None:
+                        index = settings.layout
             except:
                 pass
             context = aq_parent(context)
