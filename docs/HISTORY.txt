@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.2 - Released (2017-01-13)
+---------------------------
+
+* Changed how the annotations are invoked so that it doesn't write if it
+  was never present to prevent CSRF protection by plone.protect>=3 from
+  being triggered on standard GET requests on page views.
+
 2.1.9 - Released (2016-12-29)
 -----------------------------
 
