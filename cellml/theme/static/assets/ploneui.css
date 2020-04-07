@@ -14,7 +14,8 @@
  /* undo reset.css rules */
 
 * li { display: list-item; }
-* ol, ul { list-style: initial; }
+* ul { list-style: initial; }
+* ol { list-style: decimal; }
 
  /* @group Content */
 
