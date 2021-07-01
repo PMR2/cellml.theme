@@ -45,7 +45,7 @@
         <replace css:theme-children="#breadcrumbs" css:content="#portal-breadcrumbs" />
 
         <!-- for the hints on content-type specific styles -->
-        <merge attributes="class" css:theme="body" css:content="body" />
+        <merge attributes="class id data-base-url data-portal-url dir" css:theme="body" css:content="body" />
 
         <!-- Personal tools -->
         <replace css:theme="#account-info" css:content="#portal-personaltools" />

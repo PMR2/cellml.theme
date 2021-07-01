@@ -54,7 +54,9 @@
                   classes python:context.restrictedTraverse('@@sunburstview').getColumnsClasses(view)"
     tal:attributes="class body_class;
                     id provider:cellml.theme.footer_portlet_count;
-                    dir python:isRTL and 'rtl' or 'ltr'">
+                    dir python:isRTL and 'rtl' or 'ltr';
+                    data-portal-url portal_url;
+                    data-base-url context/absolute_url">
 
 <div id="visual-portal-wrapper">
 
