@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.2.2 - Released (2021-07-01)
+-----------------------------
+
+* Fix the issue relating to upstream script usage of the data-*-url
+  values from the client-side, introduced via Products.CMFPlone#2101.
+
 2.2.1 - Released (2020-04-07)
 -----------------------------
 
